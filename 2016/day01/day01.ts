@@ -1,9 +1,5 @@
 import * as utils from "../../utils.ts";
-
-interface Position {
-  x: number;
-  y: number;
-}
+import {Position} from "../common.ts";
 
 interface Input {
   dir: string;
